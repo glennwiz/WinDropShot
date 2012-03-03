@@ -9,17 +9,13 @@ using System.Windows.Forms;
 
 namespace WinDropShot
 {
-    public partial class Main : Form
+    public partial class MainForm : Form
     {
-        public Main()
+        
+        public MainForm()
         {
+            LogController.DebugMessage("test");
             InitializeComponent();
-        }
-
-        private void Main_Load(object sender, EventArgs e)
-        {
-            this.Visible = false;
-            MessageBox.Show("test");
         }
     }
 }

@@ -15,10 +15,9 @@ namespace WinDropShot
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            
-            var mn = new Main();
-            mn.Hide();
 
+            var main = new MainForm();
+            
             Application.Run();  
         }
     }
